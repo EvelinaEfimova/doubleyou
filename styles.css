@@ -33,8 +33,10 @@ body {
    position: relative;
    font: 24px/24px "gilroy-extrabold", sans-serif;
    color: #fff;
-   margin-bottom: 104px;
-   background: url(img/underline.svg);
+   background: linear-gradient(180deg, transparent 40%, #E18370 40%);
+   padding: 0 5px 5px 14px;
+   margin-right: 9px;
+   margin-bottom: 99px;
 }
 
 /* .content__date::before {
@@ -83,6 +85,7 @@ body {
    position: relative;
    top: -45px;
    background-color: #FFF2E9;
+   border-radius: 0 30px 30px 0;
    width: 100%;
    height: 387px;
 }
@@ -110,13 +113,15 @@ body {
    content: url(img/dots-group.svg);
 }
 
-.title__part {
+.title__part,
+.name__part {
    color: #E18370;
 }
 
 .context__time {
    position: relative;
    top: -16px;
+   width: 61%;
 }
 
 .sectionThree {
@@ -126,19 +131,21 @@ body {
 
 .sectionThree__map {
    position: relative;
-   top: -46px;
-   left: 35px;
+   top: -49px;
+   width: 76%;
+   padding-left: 70px;
 }
 
 .sectionThree__frame {
    position: absolute;
+   color: #fff;
    top: 158px;
    right: 196px;
    width: 463px;
    height: 255px;
    background-color: #E18370;
    border-radius: 33px;
-   color: #fff;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .frame__title {
@@ -155,34 +162,313 @@ body {
 }
 
 .sectionFour {
-   position: relative;
-   top: 71px;
+   margin-top: 63px;
 }
 
 .sectionFour__title {
    font: 46px/46px "gilroy-extrabold", sans-serif;
    text-transform: uppercase;
    text-align: center;
+   margin-bottom: 33px;
 }
 
 .sectionFour__firstPerson {
    position: relative;
-   top: 36px;
-   left: -54px;
    display: flex;
-   justify-content: center;
+   width: 75%;
+   margin: 0 auto;
+   margin-bottom: 5px;
 }
 
 .firstPerson__icon {
-   
+   padding-left: 35px;
+   padding-right: 80px;
+}
+
+.firstPerson__name {
+   font: 36px/36px "gilroy-extrabold", sans-serif;
+   padding-bottom: 31px;
+}
+
+.name__surname {
+   text-transform: uppercase;
 }
 
 .firstPerson__history {
+   margin-top: 100px;
+}
 
+.firstPerson__descr {
+   list-style: url(img/dot-list.svg) outside;
+   margin-left: -22px;
+}
+
+.descr__item,
+.descrTwo__item {
+   font: 18px/24px "gilroy-light", sans-serif;
 }
 
 .sectionFour__secondPerson {
+   position: relative;
+   display: flex;
+   width: 75%;
+   margin: 0 auto;
+}
 
+.secondPerson__history {
+   padding-top: 95px;
+}
+
+.secondPerson__name {
+   font: 36px/36px "gilroy-extrabold", sans-serif;
+   padding-left: 134px;
+}
+
+.secondPerson__descrTwo {
+   list-style: url(img/dot-list.svg) outside;
+}
+
+.secondPerson__icon {
+   padding-right: 44px;
+}
+
+.sectionFive {
+   margin-top: 7px;
+   margin-bottom: 113px;
+}
+
+.sectionFive__title {
+   text-align: center;
+   font: 46px/46px "gilroy-extrabold", sans-serif;
+   background: linear-gradient(180deg, transparent 40%, #FFF2E9 40%);
+   padding: 138px 5px 27px 2px;
+}
+
+.sectionFive__items {
+   margin: 0 auto;
+   width: 32%;
+   display: flex;
+   padding-top: 37px;
+}
+
+.items__pre {
+
+}
+
+.pre__pic {
+   margin-bottom: 28px;
+}
+
+
+.items__sending {
+   padding-left: 234px;
+}
+
+.pre__parag {
+   
+}
+
+.parag__title {
+   margin-left: -21px;
+   font: 24px/25px "gilroy-extrabold", sans-serif;
+   color: #E18370;
+}
+
+.parag__subtitle {
+   padding-top: 19px;
+   font: 16px/16px "gilroy-light", sans-serif;
+}
+
+.sending__pic {
+   margin-bottom: 32px;
+}
+
+.sending__parag {
+   margin-left: -19px;
+}
+
+.sending__title {
+   font: 24px/25px "gilroy-extrabold", sans-serif;
+   color: #E18370;
+}
+
+.sending__subtitle {
+   padding-top: 18px;
+   font: 16px/16px "gilroy-light", sans-serif;
+}
+
+.subtitle__part {
+   font-weight: bold;
+}
+
+.sectionSix {
+   margin-bottom: 118px;
+}
+
+.sectionSix__title {
+   margin-bottom: 70px;
+   text-align: center;
+   font: 46px/46px "gilroy-extrabold", sans-serif;
+   text-transform: uppercase;
+}
+
+.sectionSix__content {
+   display: flex;
+   margin: 0 auto;
+   width: 84%;
+}
+
+.content__structure {
+   margin-left: -19px;
+}
+
+.structure__item {
+   font: 20px/34px "gilroy-light", sans-serif;
+}
+
+.sectionSeven {
+   position: relative;
+}
+
+.sectionSeven__pic {
+   position: relative;
+}
+
+.sectionSeven__content {
+   position: absolute;
+   top: 239px;
+   left: 187px;
+   color: #fff;
+}
+
+.content__heading {
+   margin-bottom: -23px;
+   font: 46px/46px "gilroy-extrabold", sans-serif;
+}
+
+.title__des {
+   padding-left: 15px;
+   font: 68px/171px "gilroy-extrabold", sans-serif;
+}
+
+.content__subheading {
+   font: 26px/26px "gilroy-light", sans-serif;
+}
+
+.sectionSeven__form {
+   position: absolute;
+   top: 83px;
+   right: 159px;
+   width: 499px;
+   height: 557px;
+   display: flex;
+   flex-direction: column;
+   background: #fff;
+   border-radius: 41px;
+   box-shadow: 7px 7px 7px #D97662;
+}
+
+.form__title {
+   margin: 0 auto;
+   margin-top: 60px;
+   margin-bottom: 7px;
+   font: 36px/36px "gilroy-extrabold", sans-serif;
+}
+
+#name,
+#phone,
+#email {
+   padding-top: 43px;
+   text-align: center;
+   font: 24px/24px "gilroy-light", sans-serif;
+   color: #F6D9D3;
+   width: 428px;
+   border: none;
+   border-bottom: #F6D9D3;
+}
+
+#email {
+   padding-bottom: 53px;
+}
+
+.form__textForm {
+   text-align: center;
+}
+
+.form__button {
+   display: inline-block;
+   margin-left: -7px;
+   margin-bottom: 23px;
+   width: 243px;
+   height: 65px;
+   text-align: center;
+   text-decoration: none;
+   background-color: #E18370;
+   border: none;
+   padding: 23px 23px;
+   border-radius: 30px;
+   font: 20px/20px "gilroy-extrabold", sans-serif;
+   color: #fff;
+}
+
+.form__rules {
+   font: 12px/16px "gilroy-light", sans-serif;
+   color: #E18370;
+}
+
+.rules__link {
+   color: #E18370;
+   text-decoration: underline;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 64px;
+   width: 100%;
+   height: 125px;
+   background-color: #E18370;
+}
+
+.footer__pic {
+   padding-left: 8px;
+   width: 137px;
+   height: 42px;
+}
+
+.footer__group {
+
+}
+
+.group__youtube {
+
+}
+
+.group__insta {
+
+}
+
+.group__tel {
+
+}
+
+.footer__content {
+   display: flex;
+   flex-direction: column;
+   padding-top: 10px;
+   padding-left: 44px;
+   font: 12px/12px "gilroy-light", sans-serif;
+   color: #fff;
+}
+
+.content__conf,
+.content__offer {
+   text-decoration: none;
+   color: #fff;
+}
+
+.content__conf {
+   padding-bottom: 17px;
 }
 
 
