@@ -139,6 +139,10 @@ body {
    width: 61%;
 }
 
+.context__time2 {
+   display: none;
+}
+
 .sectionThree {
    position: relative;
    text-align: center;
@@ -150,6 +154,10 @@ body {
    top: -49px;
    width: 76%;
    padding-left: 70px;
+}
+
+.sectionThree__map-small {
+   display: none;
 }
 
 .sectionThree__frame {
@@ -580,6 +588,12 @@ body {
       /*width: 55%;*/
       top: -7px;
    }
+
+   .sectionThree__map {
+      width: 90%;
+      padding: 0;
+
+   }
 }
 
 @media (max-width: 1024px) {
@@ -600,6 +614,11 @@ body {
    .context__time {
       /*width: 55%;*/
       top: -4px;
+   }
+
+   .sectionThree__frame {
+      top: 131px;
+      right: 43px;
    }
 }
 
@@ -656,6 +675,7 @@ body {
    .sectionTwo {
       top: 0;
       height: 387px;
+      border-radius: 0;
    }
 
    .sectionTwo__context {
@@ -692,6 +712,38 @@ body {
       top: 27px;
       margin: 0 auto;
    }
+
+   .sectionThree__map {
+      display: none;
+   }
+
+   .sectionThree__map-small {
+      display: block;
+      position: relative;
+      top: -15px;
+      width: 100%;
+   }
+
+   .sectionThree__frame {
+      width: 194px;
+      height: 128px;
+      border-radius: 10px;
+      right: 59px;
+      top: 44px;
+   }
+
+   .frame__title {
+      font-size: 16px;
+      line-height: 20px;
+      padding: 10px 10%;
+      top: 0;
+   }
+
+   .frame__subtitle {
+      font-size: 12px;
+      line-height: 15px;
+      top: 0;
+   }
 }
 
 @media (max-width: 580px) {
@@ -718,10 +770,9 @@ body {
       background-size: contain;
    }
 
-   /*.context__time2 {*/
-   /*   top: 47px;*/
-   /*}*/
-
+   .sectionThree__map-small {
+      top: -60px;
+   }
 }
 
 @media (max-width: 400px) {
@@ -735,7 +786,7 @@ body {
 
    .context__title::before {
       top: -120px;
-      left: 10px;
+      left: 13px;
       width: 40px;
       height: 140px;
       background-size: contain;
@@ -744,6 +795,10 @@ body {
    .context__time2 {
       width: 85%;
       top: 44px;
+   }
+
+   .sectionThree__map-small {
+      top: -118px;
    }
 }
 
