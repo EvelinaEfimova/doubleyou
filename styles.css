@@ -86,6 +86,7 @@ body {
    background-color: #FFF2E9;
    width: 100%;
    height: 387px;
+   /*border-radius: 0 30px 30px 0;*/
 }
 
 .sectionTwo__context {
@@ -105,10 +106,19 @@ body {
    padding-right: 66px;
 }
 
+/*.context__title::before {*/
+/*   position: absolute;*/
+/*   top: -338px;*/
+/*   content: url(img/dots-group.svg);*/
+/*}*/
+
 .context__title::before {
    position: absolute;
-   top: -338px;
-   content: url(img/dots-group.svg);
+   top: -334px;
+   content: '';
+   background: url(img/dots-group.svg);
+   width: 87px;
+   height: 307px;
 }
 
 .title__part,
@@ -120,6 +130,10 @@ body {
    position: relative;
    top: -16px;
    width: 61%;
+}
+
+.context__time2 {
+   display: none;
 }
 
 .sectionThree {
@@ -503,13 +517,40 @@ body {
 }
 
 @media (max-width: 1350px) {
-   .sectionTwo, .sectionThree, .sectionFour, .sectionFive, .sectionSix, .sectionSeven, .footer {
+   .sectionThree, .sectionFour, .sectionFive, .sectionSix, .sectionSeven, .footer {
       display: none;
 
    }
    /*.sectionOne__content {*/
    /*   display: none;*/
    /*}*/
+}
+
+@media (max-width: 1250px) {
+   .context__title {
+      font-size: 42px;
+      /*line-height: 45px;*/
+   }
+
+   .context__time {
+      width: 55%;
+      top: -7px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .sectionTwo {
+      height: 368px
+   }
+   .context__title {
+      font-size: 38px;
+      /*line-height: 45px;*/
+   }
+
+   .context__time {
+      width: 55%;
+      top: -4px;
+   }
 }
 
 @media (max-width: 768px) {
@@ -560,6 +601,46 @@ body {
       font-size: 14px;
       line-height: 17px;
       padding: 17px 34px;
+   }
+
+   .sectionTwo {
+      top: 0;
+   }
+
+   .sectionTwo__context {
+      flex-direction: column;
+      width: 86%;
+      top: 31px;
+      /*text-align: center;*/
+      /*margin-left: 0;*/
+      justify-content: center;
+   }
+
+   .context__title {
+      font-size: 22px;
+      line-height: 24px;
+      text-align: center;
+      /*margin-left: 23%;*/
+      padding: 0 10px;
+   }
+
+   .context__title::before {
+      top: -120px;
+      left: 10px;
+      width: 40px;
+      height: 140px;
+      background-size: contain;
+   }
+
+   .context__time {
+      display: none;
+   }
+
+   .context__time2 {
+      display: block;
+      position: relative;
+      width: 100%;
+      top: 44px;
    }
 }
 
