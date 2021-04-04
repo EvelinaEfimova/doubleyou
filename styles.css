@@ -62,8 +62,7 @@ body {
 }
 
 .content__link {
-   position: relative;
-   display: inline-block;
+   display: block;
    background-color: transparent;
    border: 2px solid #E18370;
    text-decoration: none;
@@ -258,7 +257,7 @@ body {
 
 .sectionFive {
    margin-top: 7px;
-   margin-bottom: 113px;
+   margin-bottom: 129px;
 }
 
 .sectionFive__title {
@@ -276,7 +275,21 @@ body {
 }
 
 .items__pre {
+   position: relative;
+}
 
+.items__pre::after {
+   position: absolute;
+   top: 35px;
+   left: 213px;
+   content: url(img/dots.svg);
+}
+
+.items__pre::before {
+   position: absolute;
+   top: 32px;
+   left: -122px;
+   content: url(img/dots.svg);
 }
 
 .pre__pic {
@@ -300,6 +313,17 @@ body {
 .parag__subtitle {
    padding-top: 19px;
    font: 16px/16px "gilroy-light", sans-serif;
+}
+
+.items__sending {
+   position: relative;
+}
+
+.items__sending::after {
+   position: absolute;
+   top: 35px;
+   left: 257px;
+   content: url(img/dots.svg);
 }
 
 .sending__pic {
@@ -401,17 +425,27 @@ body {
 #name,
 #phone,
 #email {
+   display: block;
    margin-top: 43px;
+   margin-left: 36px;
    text-align: center;
    font: 24px/24px "gilroy-light", sans-serif;
-   color: #F6D9D3;
-   width: 428px;
+   width: 426px;
    border: none;
-   border-bottom: #F6D9D3;
+   border-bottom: 5px solid #F6D9D3;
+   outline: none;
+   color: black;
+}
+
+#name:focus,
+#phone:focus,
+#email:focus {
+   background-color: #FFF2E9;
+   transition: 0.5s;
 }
 
 #email {
-   margin-bottom: 53px;
+   margin-bottom: 33px;
 }
 
 .form__textForm {
@@ -440,7 +474,6 @@ body {
    border: none;
    color: #fff;
 }
-
 
 .form__rules {
    font: 12px/16px "gilroy-light", sans-serif;
