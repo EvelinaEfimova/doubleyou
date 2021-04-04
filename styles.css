@@ -39,14 +39,6 @@ body {
    margin-bottom: 99px;
 }
 
-/* .content__date::before {
-   position: absolute;
-   top: 10px;
-   right: -5px;
-   content: url(img/underline.svg);
-   z-index: -1;
-} */
-
 .content__title {
    max-width: 589px;
    text-align: center;
@@ -222,10 +214,34 @@ body {
 .secondPerson__name {
    font: 36px/36px "gilroy-extrabold", sans-serif;
    padding-left: 134px;
+   padding-bottom: 9px;
+   margin-top: -4px;
 }
 
 .secondPerson__descrTwo {
-   list-style: url(img/dot-list.svg) outside;
+   list-style: url(img/dot-list.svg);
+   text-align: right;
+   padding-right: 75px;
+}
+
+.descrTwo__item.descrTwo__one {
+   margin-left: 16px;
+}
+
+.descrTwo__item.descrTwo__two {
+   margin-left: 228px;
+}
+
+.descrTwo__item.descrTwo__three {
+   margin-left: 96px;
+}
+
+.descrTwo__item.descrTwo__four {
+   margin-left: 88px;
+}
+
+.descrTwo__item.descrTwo__five {
+   margin-left: 129px;
 }
 
 .secondPerson__icon {
@@ -245,9 +261,9 @@ body {
 }
 
 .sectionFive__items {
-   margin: 0 auto;
-   width: 32%;
    display: flex;
+   justify-content: center;
+   width: 100%;
    padding-top: 37px;
 }
 
@@ -261,7 +277,7 @@ body {
 
 
 .items__sending {
-   padding-left: 234px;
+   
 }
 
 .pre__parag {
@@ -269,7 +285,6 @@ body {
 }
 
 .parag__title {
-   margin-left: -21px;
    font: 24px/25px "gilroy-extrabold", sans-serif;
    color: #E18370;
 }
