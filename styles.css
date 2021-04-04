@@ -393,7 +393,7 @@ body {
 #name,
 #phone,
 #email {
-   padding-top: 43px;
+   margin-top: 43px;
    text-align: center;
    font: 24px/24px "gilroy-light", sans-serif;
    color: #F6D9D3;
@@ -403,7 +403,7 @@ body {
 }
 
 #email {
-   padding-bottom: 53px;
+   margin-bottom: 53px;
 }
 
 .form__textForm {
