@@ -13,6 +13,7 @@ body {
 
 .sectionOne__main {
    position: relative;
+   width: 100%;
 }
 
 .sectionOne__content {
@@ -79,7 +80,6 @@ body {
    position: relative;
    top: -45px;
    background-color: #FFF2E9;
-   border-radius: 0 30px 30px 0;
    width: 100%;
    height: 387px;
 }
@@ -115,6 +115,7 @@ body {
 .context__time {
    position: relative;
    top: -16px;
+   width: 61%;
 }
 
 .sectionThree {
@@ -126,19 +127,20 @@ body {
 .sectionThree__map {
    position: relative;
    top: -49px;
+   /*left: 35px;*/
    width: 76%;
    padding-left: 70px;
 }
 
 .sectionThree__frame {
    position: absolute;
-   color: #fff;
    top: 158px;
    right: 196px;
    width: 463px;
    height: 255px;
    background-color: #E18370;
    border-radius: 33px;
+   color: #fff;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -156,22 +158,30 @@ body {
 }
 
 .sectionFour {
-   margin-top: 63px;
+   /*position: relative;*/
+   /*top: 71px;*/
 }
 
 .sectionFour__title {
    font: 46px/46px "gilroy-extrabold", sans-serif;
    text-transform: uppercase;
    text-align: center;
-   margin-bottom: 33px;
+   margin-bottom: 36px;
 }
 
 .sectionFour__firstPerson {
    position: relative;
+   /*top: 36px;*/
+   /*left: -54px;*/
    display: flex;
+   /*justify-content: center;*/
    width: 75%;
+
    margin: 0 auto;
-   margin-bottom: 5px;
+}
+
+.firstPerson__icon {
+   padding-left: 35px;
 }
 
 .firstPerson__icon {
