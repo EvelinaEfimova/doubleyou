@@ -1335,6 +1335,7 @@ body {
 
    .firstPerson__icon {
       padding-left: 217px;
+      left: 10px;
    }
 
    .secondPerson__history {
