@@ -438,7 +438,7 @@ body {
    font: 36px/36px "gilroy-extrabold", sans-serif;
 }
 
-#name,
+/* #name,
 #phone,
 #email {
    display: block;
@@ -462,6 +462,14 @@ body {
 
 #email {
    margin-bottom: 33px;
+} */
+
+.block-box {
+   padding-top: 35px;
+}
+
+.container {
+   margin-top: 32px;
 }
 
 .form__textForm {
