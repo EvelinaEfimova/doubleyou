@@ -550,6 +550,10 @@ body {
       padding: 0;
 
    }
+
+   .sectionSix__content {
+      width: 95%
+   }
 }
 
 @media (max-width: 1100px) {
@@ -566,6 +570,14 @@ body {
    .secondPerson__icon {
       width: auto;
       height: 300px;
+   }
+
+   .content__img {
+      width: 400px;
+   }
+
+   .structure__item, .item__sect, .structure__item_color {
+      font-size: 16px;
    }
 }
 
@@ -635,7 +647,23 @@ body {
    .sectionFive {
       overflow: hidden;
    }
+
+   .content__img {
+      width: 350px;
+   }
+
+   .structure__item, .item__sect, .structure__item_color {
+      font-size: 14px;
+      line-height: 26px;
+   }
 }
+
+@media (max-width: 900px) {
+   .content__img {
+      width: 300px;
+   }
+}
+
 
 @media (max-width: 768px) {
    .sectionOne {
@@ -902,6 +930,39 @@ body {
       font-size: 8px;
       line-height: 9px;
    }
+
+   .sectionFive {
+      margin-bottom: -5px;
+   }
+
+   .sectionSix__title {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 10px;
+   }
+
+   .sectionSix__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .content__img {
+      width: 195px;
+      margin-right: 39px;
+   }
+
+   .structure__item, .item__sect, .structure__item_color {
+      font-size: 8px;
+      line-height: 13px;
+   }
+
+   .content__structure {
+      list-style: url(img/strip-mobile.svg);
+      margin-left: 0;
+      margin-top: 24px;
+   }
+
 }
 
 @media (max-width: 580px) {
