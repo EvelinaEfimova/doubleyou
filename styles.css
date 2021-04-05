@@ -282,7 +282,7 @@ body {
 
 .sectionFive {
    margin-top: 7px;
-   margin-bottom: 144px;
+   margin-bottom: 149px;
 }
 
 .sectionFive__title {
@@ -382,7 +382,7 @@ body {
 }
 
 .sectionSix__title {
-   margin-bottom: 70px;
+   margin-bottom: 69px;
    text-align: center;
    font: 46px/46px "gilroy-extrabold", sans-serif;
    text-transform: uppercase;
@@ -395,12 +395,21 @@ body {
 }
 
 .content__structure {
-   margin-left: -8px;
+   margin-left: 62px;
+   margin-top: 17px;
+   list-style: url(img/strip.svg);
 }
 
+
 .structure__item {
-   padding-left: 15px;
+   padding-left: 1px;
    font: 20px/34px "gilroy-light", sans-serif;
+}
+
+.structure__item_color {
+   color: #E18370;
+   font: 20px/34px "gilroy-extrabold", sans-serif;
+   padding-right: 10px;
 }
 
 .item__sect {
@@ -579,7 +588,7 @@ body {
 }
 
 @media (max-width: 1350px) {
-    .sectionSix, .sectionSeven, .footer {
+    .sectionSeven, .footer {
       display: none;
 
    }
