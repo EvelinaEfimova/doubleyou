@@ -551,12 +551,6 @@ body {
    padding-bottom: 17px;
 }
 
-.viget {
-   position: fixed;
-   width: 80vw;
-   height: 80vh;
-}
-
 @media (max-width: 1350px) {
    .sectionFive, .sectionSix, .sectionSeven, .footer {
      display: none;
