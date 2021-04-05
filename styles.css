@@ -112,11 +112,14 @@ body {
 .context__title::before {
    position: absolute;
    top: -338px;
-   content: url(img/dots-group.svg);
+   content: "";
+   background: url(img/dots-group.svg);
+   width: 87px;
+   height: 307px;
 }
 
 .title__part,
-.name__part {
+.name__surname {
    color: #E18370;
 }
 
@@ -126,9 +129,14 @@ body {
    top: -16px;
 }
 
+.context__time2 {
+   display: none;
+}
+
 .sectionThree {
    position: relative;
    text-align: center;
+   margin-bottom: 64px;
 }
 
 .sectionThree__map {
