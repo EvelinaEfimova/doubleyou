@@ -56,7 +56,7 @@ body {
 }
 
 .content__subtitle {
-   font: 24px/24px "gilroy-extrabold", sans-serif;
+   font: 24px/24px "gilroy-light", sans-serif;
    color: #fff;
    margin-bottom: 49px;
 }
@@ -411,6 +411,9 @@ body {
 
 .sectionSeven {
    position: relative;
+   background: 73% top url("img/sectionSeven.svg");
+   background-size: cover;
+   height: 736px;
 }
 
 .sectionSeven__pic {
@@ -467,9 +470,9 @@ body {
    text-align: center;
    font: 24px/24px "gilroy-light", sans-serif;
    width: 426px;
+   outline: none;
    border: none;
    border-bottom: 5px solid #F6D9D3;
-   outline: none;
    color: black;
 }
 
@@ -524,6 +527,7 @@ body {
 .footer {
    display: flex;
    padding-top: 64px;
+   margin-top: 7px;
    width: 100%;
    height: 125px;
    background-color: #E18370;
@@ -938,7 +942,121 @@ body {
 
    }
 }
+@media (min-width: 1550px) {
+   .footer__pic {
+      margin-left: 205px;
+   }
+}
 
+@media (min-width: 1600px) {
+   .firstPerson__icon {
+      padding-left: 70px;
+   }
 
+   .secondPerson__history {
+      padding-left: 70px;
+   }
+}
 
+@media (min-width: 1650px) {
+   .firstPerson__icon {
+      padding-left: 100px;
+   }
 
+   .secondPerson__history {
+      padding-left: 100px;
+   }
+
+   .content__img {
+      padding-left: 90px;
+   }
+
+   .footer__pic {
+      margin-left: 252px;
+   }
+}
+
+@media (min-width: 1750px) {
+   .footer__pic {
+      margin-left: 302px;
+   }
+}
+
+@media (min-width: 1800px) {
+   .firstPerson__icon {
+      padding-left: 150px;
+   }
+
+   .secondPerson__history {
+      padding-left: 150px;
+   }
+
+   .content__img {
+      padding-left: 130px;
+   }
+
+   .sectionSeven__content {
+      left: 250px;
+   }
+
+   .sectionSeven__form {
+      right: 250px;
+   }
+
+   .footer__pic {
+      margin-left: 328px;
+   }
+}
+
+@media (mix-width: 1850px) {
+   .firstPerson__icon {
+      padding-left: 175px;
+   }
+
+   .secondPerson__history {
+      padding-left: 175px;
+   }
+
+   .footer__pic {
+      margin-left: 347px;
+   }
+}
+
+@media (min-width: 1900px) {
+   .sectionThree__frame {
+      top: 244px;
+      right: 304px;
+      width: 533px;
+      height: 307px;
+   }
+
+   .frame__title {
+      top: 53px;
+      font: 38px/38px "gilroy-extrabold", sans-serif;
+   }
+
+   .frame__subtitle {
+      top: 95px;
+      font: 30px/37px "gilroy-extrabold", sans-serif;
+   }
+
+   .firstPerson__icon {
+      padding-left: 217px;
+   }
+
+   .secondPerson__history {
+      padding-left: 217px;
+   }
+
+   .content__img {
+      padding-left: 182px;
+   }
+
+   .structure__item {
+      font: 22px/34px "gilroy-light", sans-serif;
+   }
+
+   .footer__pic {
+      margin-left: 391px;
+   }
+}
