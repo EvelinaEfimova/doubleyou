@@ -129,7 +129,7 @@ body {
 }
 
 .title__part,
-.name__part {
+.name__surname {
    color: #E18370;
 }
 
@@ -199,9 +199,10 @@ body {
 .sectionFour__firstPerson {
    position: relative;
    display: flex;
-   width: 75%;
+   width: 100%;
    margin: 0 auto;
    margin-bottom: 5px;
+   justify-content: center;
 }
 
 .firstPerson__icon {
@@ -235,8 +236,9 @@ body {
 .sectionFour__secondPerson {
    position: relative;
    display: flex;
-   width: 75%;
+   width: 100%;
    margin: 0 auto;
+   justify-content: center;
 }
 
 .secondPerson__history {
@@ -569,7 +571,7 @@ body {
 }
 
 @media (max-width: 1350px) {
-   .sectionFour, .sectionFive, .sectionSix, .sectionSeven, .footer {
+    .sectionFive, .sectionSix, .sectionSeven, .footer {
       display: none;
 
    }
@@ -596,6 +598,23 @@ body {
    }
 }
 
+@media (max-width: 1100px) {
+   .firstPerson__icon {
+      padding-right: 50px;
+      width: auto;
+      height: 300px;
+   }
+
+   .secondPerson__descrTwo {
+      padding-right: 50px;
+   }
+
+   .secondPerson__icon {
+      width: auto;
+      height: 300px;
+   }
+}
+
 @media (max-width: 1024px) {
    .sectionTwo {
       height: 368px
@@ -619,6 +638,44 @@ body {
    .sectionThree__frame {
       top: 131px;
       right: 43px;
+   }
+
+   .firstPerson__icon {
+      padding-right: 30px;
+      width: auto;
+      height: 200px;
+      padding-left: 0;
+   }
+
+   .firstPerson__history {
+      margin-top: 20px;
+   }
+
+   .firstPerson__name {
+      font-size: 32px;
+   }
+
+   .secondPerson__name {
+      padding-left: 90px;
+      font-size: 32px;
+   }
+
+   .secondPerson__history {
+      padding-top: 20px;
+   }
+
+   .secondPerson__descrTwo {
+      padding-right: 30px;
+   }
+
+   .secondPerson__descrTwo {
+      padding-left: 0;
+   }
+
+   .secondPerson__icon {
+      width: auto;
+      height: 200px;
+      padding-right: 0;
    }
 }
 
@@ -744,6 +801,71 @@ body {
       line-height: 15px;
       top: 0;
    }
+
+   .sectionThree {
+      margin-bottom: 0;
+   }
+
+   .sectionFour__title, .firstPerson__name, .secondPerson__name {
+      font-size: 22px;
+      line-height: 27px;
+      text-align: center;
+      padding: 0;
+   }
+
+   .sectionFour__title {
+      margin-bottom: 18px;
+   }
+
+   .sectionFour__firstPerson, .sectionFour__secondPerson {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .firstPerson__icon {
+      width: 195px;
+      height: 165px;
+      padding-right: 68px;
+   }
+   .descr__item, .descrTwo__item {
+      font-size: 10px;
+      line-height: 15px;
+   }
+
+   .firstPerson__descr, .secondPerson__descrTwo {
+      list-style: url(img/dot-list-mobile.svg) outside;
+      margin-left: -9px;
+      margin-top: 21px;
+   }
+
+   .sectionFour__firstPerson {
+      margin-bottom: 27px;
+   }
+
+   .secondPerson__history {
+      order: 1;
+   }
+
+   .secondPerson__icon {
+      width: 201px;
+      height: 166px;
+      margin-left: 63px;
+   }
+
+   .secondPerson__descrTwo {
+      text-align: left;
+      padding: 0;
+      margin-top: 10px;
+   }
+
+   .descrTwo__item.descrTwo__one,
+   .descrTwo__item.descrTwo__two,
+   .descrTwo__item.descrTwo__three,
+   .descrTwo__item.descrTwo__four,
+   .descrTwo__item.descrTwo__five {
+      margin-left: 30px;
+   }
+
 }
 
 @media (max-width: 580px) {
@@ -753,10 +875,6 @@ body {
 }
 
 @media (max-width: 500px) {
-   /*.sectionTwo__context {*/
-   /*   top: 47px;*/
-   /*}*/
-
    .context__title {
       font-size: 32px;
       line-height: 39px;
@@ -800,6 +918,11 @@ body {
    .sectionThree__map-small {
       top: -118px;
    }
+
+   .sectionFour {
+      position: relative;
+      top: -83px;
+   }
 }
 
 @media (max-width: 320px) {
@@ -809,6 +932,10 @@ body {
 
    .context__time2 {
       width: 100%;
+   }
+
+   .sectionFour {
+
    }
 }
 
