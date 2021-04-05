@@ -1012,6 +1012,19 @@ body {
       margin-top: 24px;
    }
 
+   .sectionSix {
+      margin-bottom: 34px;
+   }
+
+   .sectionSeven__form {
+      width: 400px;
+      right: calc((100% - 400px) / 2);
+   }
+
+   .form__title {
+      font-size: 26px;
+      line-height: 30px;
+   }
 }
 
 @media (max-width: 580px) {
@@ -1036,6 +1049,11 @@ body {
 
    .sectionThree__map-small {
       top: -60px;
+   }
+
+   .sectionSeven__form {
+      width: 300px;
+      right: calc((100% - 300px) / 2);
    }
 }
 
