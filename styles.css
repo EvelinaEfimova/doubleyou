@@ -116,8 +116,8 @@ body {
 
 .context__title::before {
    position: absolute;
-   top: -334px;
-   content: '';
+   top: -338px;
+   content: "";
    background: url(img/dots-group.svg);
    width: 87px;
    height: 307px;
@@ -149,10 +149,6 @@ body {
    padding-left: 70px;
    position: relative;
    top: -49px;
-}
-
-.sectionThree__map-small {
-   display: none;
 }
 
 .sectionThree__map-small {
