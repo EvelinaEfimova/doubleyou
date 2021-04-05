@@ -67,8 +67,8 @@ body {
 .content__link {
    display: block;
    padding: 23px 34px;
-   background-color: transparent;
-   border: 2px solid #E18370;
+   background-color: #E18370;
+   border: none;
    text-decoration: none;
    border-radius: 33px;
    outline: 0;
@@ -76,11 +76,6 @@ body {
    color: #fff;
    text-align: center;
    transition: 0.5s;
-}
-
-.content__link:hover {
-   background-color: #E18370;
-   border: none;
 }
 
 .content__link a {
@@ -480,7 +475,7 @@ body {
    width: 137px;
    height: 42px;
    padding-left: 8px;
-   margin-left: 150px;
+   margin-left: -11px;
    margin-right: 227px;
 }
 
@@ -1154,7 +1149,7 @@ body {
 
 @media (min-width: 1550px) {
    .footer__pic {
-      margin-left: 205px;
+      margin-left: -25px;
    }
 }
 
@@ -1182,13 +1177,13 @@ body {
    }
 
    .footer__pic {
-      margin-left: 252px;
+      margin-left: -19px;
    }
 }
 
 @media (min-width: 1750px) {
    .footer__pic {
-      margin-left: 302px;
+      margin-left: -27px;
    }
 }
 
@@ -1214,7 +1209,7 @@ body {
    }
 
    .footer__pic {
-      margin-left: 328px;
+      margin-left: -29px;
    }
 }
 
@@ -1228,7 +1223,7 @@ body {
    }
 
    .footer__pic {
-      margin-left: 347px;
+      margin-left: -22px;
    }
 }
 
@@ -1267,6 +1262,6 @@ body {
    }
 
    .footer__pic {
-      margin-left: 391px;
+      margin-left: -27px;
    }
 }
