@@ -575,7 +575,7 @@ body {
 }
 
 @media (max-width: 1350px) {
-    .sectionFive, .sectionSix, .sectionSeven, .footer {
+    .sectionSix, .sectionSeven, .footer {
       display: none;
 
    }
@@ -680,6 +680,10 @@ body {
       width: auto;
       height: 200px;
       padding-right: 0;
+   }
+
+   .sectionFive {
+      overflow: hidden;
    }
 }
 
@@ -870,6 +874,79 @@ body {
       margin-left: 30px;
    }
 
+   .sectionFive__title {
+      font-size: 24px;
+      line-height: 28px;
+      padding: 10px 40px;
+      background: #FFF2E9;
+   }
+
+   .parag__title, .sending__title {
+      font-size: 12px;
+      line-height: 15px;
+   }
+
+   .parag__subtitle, .sending__subtitle {
+      font-size: 8px;
+      line-height: 9px;
+      padding-top: 5px;
+   }
+
+   .pre__pic, .sending__pic {
+      width: 45px;
+   }
+
+   .items__pre::before, .items__pre::after, .items__sending::after {
+      content: url(img/dots-mobile.svg);
+   }
+
+   .sectionFive {
+      margin-top: 25px;
+   }
+
+   .sectionFive__items {
+      padding-top: 25px;
+      width: 320px;
+      margin: auto;
+   }
+
+   .items__pre {
+      left: 12px;
+      top: 8px;
+      width: 45%;
+   }
+
+   .items__sending {
+      top: 7px;
+      left: -10px;
+      width: 45%;
+   }
+
+   .items__pre::before {
+      top: 11px;
+      left: -16px;
+   }
+
+   .items__pre::after {
+      top: 11px;
+      left: 104px;
+   }
+
+   .items__sending::after {
+      top: 17px;
+      left: 101px;
+   }
+
+   .pre__parag {
+      position: relative;
+      top: -20px;
+      width: 115px;
+   }
+
+   .sending__parag {
+      position: relative;
+      top: -20px;
+   }
 }
 
 @media (max-width: 580px) {
@@ -926,6 +1003,21 @@ body {
    .sectionFour {
       position: relative;
       top: -83px;
+   }
+
+   .sectionFive {
+      margin-top: 0;
+      position: relative;
+      top: -39px
+   }
+
+   .sectionFive__title {
+      font-size: 18px;
+      line-height: 22px;
+   }
+
+   .sectionFive__items {
+      padding-top: 10px;
    }
 }
 
@@ -1008,7 +1100,7 @@ body {
    }
 }
 
-@media (mix-width: 1850px) {
+@media (min-width: 1850px) {
    .firstPerson__icon {
       padding-left: 175px;
    }
