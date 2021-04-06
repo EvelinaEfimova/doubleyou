@@ -988,17 +988,17 @@ body {
    }
 
    .items__pre::before {
-      top: 11px;
+      top: 12px;
       left: -16px;
    }
 
    .items__pre::after {
-      top: 11px;
+      top: 12px;
       left: 104px;
    }
 
    .items__sending::after {
-      top: 18px;
+      top: 16px;
       left: 101px;
    }
 
@@ -1014,7 +1014,11 @@ body {
    }
 
    .sending__pic {
-      margin-bottom: 26px;
+      margin-bottom: 28px;
+   }
+
+   .sending__subtitle {
+      font-size: 10px;
    }
 
    .sending__parag {
