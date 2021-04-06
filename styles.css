@@ -1013,10 +1013,16 @@ body {
       display: none;
    }
 
+   .sending__pic {
+      margin-bottom: 26px;
+   }
+
    .sending__parag {
       position: relative;
-      top: -20px;
+      top: -19px;
       left: 5px;
+      max-width: 137px;
+      margin-left: -5px;
    }
 
    .subtitle__part {
