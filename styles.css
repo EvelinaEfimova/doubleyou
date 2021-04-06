@@ -512,6 +512,12 @@ body {
    padding-bottom: 17px;
 }
 
+.link-for-form .link__btn{
+   margin: 0 auto;
+   margin-bottom: 20px;
+   margin-top: 60px;
+}
+
 @media (max-width: 1350px) {
    .sectionSeven__content {
       left: 100px;
@@ -1114,6 +1120,13 @@ body {
    .content__subheading {
       font-size: 18px;
       line-height: 84px;
+   }
+
+   .link-for-form .link__btn{
+      margin-bottom: 0;
+      margin-top: 20px;
+      font-size: 15px;
+      padding: 12px 21px;
    }
 }
 
